@@ -3,13 +3,13 @@ from ecdsa.numbertheory import inverse_mod
 from ecdsa.ecdsa import generator_secp256k1
 
 # ✅ Konwersja danych do liczb całkowitych
-r1 = int("8c7417b1ac540660efca6105f9aea0d80f97dcf95bbe2728f67f51775c5fe570", 16)
-s1 = int("6c32f2b0e83a8ab28b39ecb98984f23428412eb104695b4e2da0bb4d8ed79ce3", 16)
-z1 = int("229a724d52d0769139faba866c616889bfb53b3e2c30da04684ade4adabe4e6d", 16)
+r1 = int("845ec6e7e1b1c34e38641e7e8365be07a6af72984270758a6a68768ca39f3099", 16)
+s1 = int("2e9cf801cd21dff723133c374f543fda1afab4582060d9d4c33c052a1dc79736", 16)
+z1 = int("27b8d1171f9d5508f903329e7a35b0485f6018b807da5d4a645fcb8eae039740", 16)
 
-r2 = int("8c747621089b625414ce56c4254fb53789c63fb5cd32037fccad39166439c6bc", 16)
-s2 = int("5425dfcba74f0e5ea6709834b308fd5a475a5fd42d8077c96eb61378ff0ee245", 16)
-z2 = int("ef82025de9311d305b777b8f8a866d5cc63772f06192d89eb5183c28454b317d", 16)
+r2 = int("8494ab073c3029cc964f9180c3f59115eb9c7e0536174b8dc79f4c5cb65df64b", 16)
+s2 = int("00718aed1d33ad2c892b76d4b0da3bc15db9765a9093cf58ed8bb285ed3dcf9f", 16)
+z2 = int("a60da52b429112ae4cec8129a1445155ef2bdf7b711943452b51cc9ef130af8c", 16)
 
 # ✅ Stała wartość krzywej secp256k1 (order n)
 n = generator_secp256k1.order()
