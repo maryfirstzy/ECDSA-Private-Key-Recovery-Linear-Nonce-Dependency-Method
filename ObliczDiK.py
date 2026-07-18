@@ -4,11 +4,11 @@ from ecdsa.ecdsa import generator_secp256k1
 
 # ✅ Konwersja danych do liczb całkowitych
 r1 = int("845ec6e7e1b1c34e38641e7e8365be07a6af72984270758a6a68768ca39f3099", 16)
-s1 = int("2e9cf801cd21dff723133c374f543fda1afab4582060d9d4c33c052a1dc79736x", 16)
+s1 = int("2e9cf801cd21dff723133c374f543fda1afab4582060d9d4c33c052a1dc79736", 16)
 z1 = int("27b8d1171f9d5508f903329e7a35b0485f6018b807da5d4a645fcb8eae039740", 16)
 
 r2 = int("8494ab073c3029cc964f9180c3f59115eb9c7e0536174b8dc79f4c5cb65df64b", 16)
-s2 = int("718aed1d33ad2c892b76d4b0da3bc15db9765a9093cf58ed8bb285ed3dcf9fz", 16)
+s2 = int("718aed1d33ad2c892b76d4b0da3bc15db9765a9093cf58ed8bb285ed3dcf9f", 16)
 z2 = int("a60da52b429112ae4cec8129a1445155ef2bdf7b711943452b51cc9ef130af8c", 16)
 
 # ✅ Stała wartość krzywej secp256k1 (order n)
